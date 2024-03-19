@@ -1,0 +1,18 @@
+o chico é um codeas
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.navbar{
+    background-color: rgb(128, 128, 128);
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar button{
+    margin-right: 5px;
+}
