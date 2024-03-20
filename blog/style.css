@@ -68,4 +68,16 @@ header img{
     z-index: 1;
 }
 
+header a:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+    text-decoration-color: yellow;
+}
+
+.home:hover{
+    color: black;
+}
+
 
