@@ -14,3 +14,7 @@ body{
 .navbar button{
     margin-right: 5px;
 }
+
+header img{
+    filter: grayscale(80%);
+}
