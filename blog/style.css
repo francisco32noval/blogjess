@@ -1,5 +1,10 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    background-image: url('imagens/gray_image.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -17,7 +22,7 @@ body{
 
 header img{
     filter: grayscale(80%);
-    height: 80vw;
+    height: 70vw;
 }
 
 .header-1{
@@ -29,15 +34,37 @@ header img{
     align-items: center;
 }
 
+.header-1 div:nth-child(1){
+    font-size: 3vw;
+    min-width: 20vw;
+    text-align: center;
+
+    position: relative;
+    bottom: 8vw;
+    z-index: 1
+}
+
 .header-1 div:nth-child(2){
     font-size: 3vw;
     text-transform: uppercase;
     width: 40vw;
     text-align: right;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     position: relative;
     top: 15vw;
+    z-index: 1;
+}
+
+.header-1 div:nth-child(3){
+    font-size: 2vw;
+    padding: 5px 10px;
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 0, 0);
+
+    position: relative;
+    bottom: 6vw;
+    left: 5vw;
     z-index: 1;
 }
 
