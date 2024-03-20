@@ -17,6 +17,7 @@ body{
 
 header img{
     filter: grayscale(80%);
+    height: 80vw;
 }
 
 .header-1{
@@ -27,3 +28,17 @@ header img{
     justify-content: space-around;
     align-items: center;
 }
+
+.header-1 div:nth-child(2){
+    font-size: 3vw;
+    text-transform: uppercase;
+    width: 40vw;
+    text-align: right;
+    border: 1px solid red;
+
+    position: relative;
+    top: 15vw;
+    z-index: 1;
+}
+
+
