@@ -21,7 +21,7 @@ body{
 }
 
 header img{
-    filter: grayscale(80%);
+    filter: grayscale(90%);
     height: 70vw;
 }
 
@@ -81,3 +81,31 @@ header a:hover{
 }
 
 
+
+
+
+/* MAIN */
+
+main{
+    background: linear-gradient( to top, rgb(188, 188, 188), rgb(201, 201, 201), rgb(228, 226, 226));
+}
+
+
+.jess-2{
+    box-shadow: -25px -25px 0px 2px rgb(0, 0, 0);
+    filter: grayscale(80%);
+}
+
+.quem-sou{
+    margin-top: 70px;
+}
+
+/* .quem-sou div{
+    border: 1px solid black;
+} */
+
+main p{
+    text-align: justify;
+
+    font-weight: 600;
+}
